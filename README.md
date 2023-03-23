@@ -1,2 +1,2 @@
 # Programming-Problems-Solution
-The repository where I write some solution of random easy problems to improve my explanation skill.
+The repository where I write the solution of some random easy problems to improve my explanation skill.
