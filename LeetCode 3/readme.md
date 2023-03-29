@@ -22,7 +22,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 若沒有其他重複的字符，那麼 $s_{c_{k-1}+1,j}$ 就是在 $j$ 結束，最長且符合條件的子串。 -->
 
 現在考慮 $j+1$，\
-由於 $s_{1,j},\dotsc,s_{i-1,j}$ 存在重複的字符，$s_{1,j+1},\dotsc,s_{i-1,j+1}$ 也會有重複的字符。
+由於 $s_{1,j},\dotsc,s_{i-1,j}$ 存在重複的字符， $s_{1,j+1},\dotsc,s_{i-1,j+1}$ 也會有重複的字符。
 * 如果 $s_{i,j}$ 裏有字符 $s_k$ 和 $s_{j+1}$ 相等，那麼 $s_{i,j+1},\dotsc,s_{k,j+1}$ 都存在重複的字符。\
   $s_{k+1,j+1}$ 就是在 $j+1$ 結束，最長且符合條件的子串。
 * 如果 $s_{i,j}$ 裏沒有字符和 $s_{j+1}$ 相等，那麼\
